@@ -22,15 +22,19 @@ Astudio may provide any of these items separately under paid plans, paid license
 
 You may:
 
+- download, clone, and install the Software from the official Astudio distribution, including this GitHub repository;
+- create a GitHub fork of the official repository for evaluation, personal or internal modification, and for proposing pull-request contributions back to Astudio;
 - use the Software in an unlimited number of your own personal or commercial projects;
 - modify the Software for use within those projects;
 - distribute the Software only as an inseparable part of a website, application, or other product created by you, provided that recipients are not offered the Software as a standalone editor, library, package, source-code product, or competing service.
+
+A GitHub fork of the official Astudio repository that retains this License, copyright notices, and Astudio attribution, and that is used only for the purposes above, is permitted. Such a fork is not a grant of official distribution rights.
 
 ## 4. Restrictions
 
 Unless Astudio gives prior written permission, you may not:
 
-- sell, sublicense, publish, share, or redistribute the Software, its source code, or a modified version as a standalone product, package, library, template, download, repository, or service;
+- sell, sublicense, rebrand, or redistribute the Software, its source code, or a modified version as a standalone competing editor, product, package, library, template, download, or service (GitHub forks of the official repository under section 3 are not this);
 - present the Software or a modified version as software authored or owned by you;
 - remove or alter copyright, license, trademark, or attribution notices included with the Software;
 - use Astudio’s name, trademarks, or branding to imply endorsement or partnership;

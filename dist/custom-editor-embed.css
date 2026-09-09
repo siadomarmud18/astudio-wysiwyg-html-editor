@@ -1,0 +1,93 @@
+/**
+ * Astudio WYSIWYG Rich HTML Editor
+ * Copyright (c) 2026 Astudio
+ * Licensed under the terms in LICENSE.md
+ */
+
+.fe-align-wrap {
+  display: block;
+  width: 100%;
+}
+
+.fe-align-wrap--left {
+  text-align: left;
+}
+
+.fe-align-wrap--center {
+  text-align: center;
+}
+
+.fe-align-wrap--right {
+  text-align: right;
+}
+
+.fe-align-wrap > img,
+.fe-align-wrap > .fe-media {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.fe-media.fe-media--instagram {
+  width: 100%;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  overflow: hidden;
+}
+
+.fe-media.fe-media--instagram .fe-media__wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding-bottom: 0;
+  aspect-ratio: auto;
+  overflow: hidden;
+}
+
+.fe-media.fe-media--instagram iframe {
+  position: static;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  overflow: hidden;
+}
+
+.fe-media.fe-media--tiktok {
+  width: 100%;
+  max-width: min(100%, calc(100vh * 9 / 16));
+  max-width: min(100%, calc(100dvh * 9 / 16));
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+  overflow: hidden;
+}
+
+.fe-media.fe-media--tiktok .fe-media__wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+}
+
+.fe-media.fe-media--tiktok iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  overflow: hidden;
+}
+
+.fe-align-wrap > .fe-media.fe-media--instagram,
+.fe-align-wrap > .fe-media.fe-media--tiktok {
+  margin-left: 0;
+  margin-right: 0;
+}
