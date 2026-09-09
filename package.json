@@ -1,0 +1,43 @@
+{
+  "name": "astudio-wysiwyg-editor",
+  "version": "1.3.1",
+  "description": "Free zero-dependency rich text editor with a CKEditor-style API",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "src/custom-editor.js",
+  "module": "src/custom-editor.esm.js",
+  "browser": "src/custom-editor.js",
+  "unpkg": "src/custom-editor.js",
+  "style": "src/custom-editor.css",
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "import": "./src/custom-editor.esm.js",
+      "require": "./src/custom-editor.js",
+      "default": "./src/custom-editor.js"
+    },
+    "./custom-editor.css": "./src/custom-editor.css",
+    "./custom-editor-embed.css": "./src/custom-editor-embed.css",
+    "./custom-editor.js": "./src/custom-editor.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/custom-editor.js",
+    "src/custom-editor.esm.js",
+    "src/custom-editor.css",
+    "src/custom-editor-embed.css",
+    "demo.html",
+    "README.md"
+  ],
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "rich-text",
+    "ckeditor",
+    "contenteditable"
+  ],
+  "sideEffects": [
+    "./src/custom-editor.js",
+    "./src/custom-editor.css",
+    "./src/custom-editor-embed.css"
+  ]
+}
